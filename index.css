@@ -1,0 +1,192 @@
+
+nav{
+    z-index: 1;
+}
+li{
+    color: white;
+}
+.left{
+    font-size: small;
+    float: right;
+    padding-left: 50px ;
+    padding-top: 0px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+    padding-top: 50px;
+}
+ #name{
+    float: left;
+    color: white;
+   
+    padding-left: 20px;
+    font-size: 50px;    
+}
+.firstimage
+{
+    position: absolute;
+    z-index: -1;
+}
+.pagetwo
+{
+    display: flex;
+    padding: 100px 0px 50px 150px;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    margin: auto;
+}
+.aboutme{
+    padding-left: 20px;
+}
+.img2{
+    width: 400px;
+    height: 500px;
+}
+.icon{
+    padding-top: 30px;
+    color: yellowgreen;
+    font-size: 50px;
+}
+hr{
+    margin-right: 450px;
+    color: gray;
+    background-color: gray;
+}
+.fa-linkedin-square {
+    padding-left: 20px;
+}
+.fa-github{
+    padding-left: 20px;
+}
+.page3{
+    background-color: rgb(228, 235, 182);
+    padding-top: 50px;
+    text-align: center;
+}
+.prolist{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.pro1{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.demo{
+    width: 60%;
+    height: 40px;
+    margin: auto;
+    padding: 20px 3px 0px 3px;
+    background-color: rgb(234, 234, 83);
+    border-radius: 30px;
+}
+.firstpg .pagetwo .page3 .page4 .lspg{
+    width: 500px;
+    height: 500px;
+}
+.flx{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.range{
+    width: 50%;
+    padding: 30px 20px 30px 20px;
+}
+.head{
+    text-align: center;
+}
+.r{
+    display: inline-block;
+}
+.pr{
+   float: right;
+}
+.skill{
+    width: 100%;
+    height: 3%;
+    background-color: rgb(238, 227, 227);
+    border-radius: 30px;
+    color: rgb(241, 231, 231) ;
+    
+}
+.brd{
+    background-color: yellow;
+    width: 85%;
+    height: 9px;
+    color: yellow;
+    border-radius: 30px;
+}
+.vd{
+    background-color: yellow;
+    width: 90%;
+    height: 9px;
+    border-radius: 30px;
+}
+.stb{
+    background-color: yellow;
+    width: 80%;
+    height: 9px;
+    border-radius: 30px;
+}
+.s{
+    background-color: yellow;
+    width: 75%;
+    height: 9px;
+    border-radius: 30px;
+}
+.quality{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 40px 50px 40px;
+}
+.q>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+}
+.lspg{
+    background-color: rgb(225, 225, 205);
+}
+.lscnt{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+.lsh3{
+    text-align: center;
+    padding-top: 50px;
+}
+.lsch{
+    padding-left: 20px;
+    width: 50%;
+}
+.cm{
+    border: solid white 3px;
+    border-radius: 40px;
+    
+    padding: 5px 10px 5px 10px;
+}
