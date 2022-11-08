@@ -1,0 +1,24 @@
+.name{
+     font-size: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+ list-style: none;   
+ display: flex;
+ justify-content: space-between;
+}
+
+.nav{
+   list-style: none;
+   height: 40px;
+   
+   background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: black;
+}
