@@ -5,18 +5,17 @@ export default function Navi()
 {
     return (
          
-        <div>
-        <ul className="body">
-            <li className="name">Afreen</li>
-            <li>
-                <ul className="nav">
-                <li><Link className="link" to="/">Home</Link></li>
-        <li><Link className="link" to="/MyProject">MyProjects</Link></li>
-        <li><Link className="link" to="/AboutMe">AboutMe</Link></li>
-                </ul>
-            </li>
-        </ul>
-       </div>
        
+        <div className="center">
+            <span className="name">Afreen Ansari</span>
+            <div>
+            <span><Link className="link" to="/">Home</Link></span>
+        <span><Link className="link" to="/MyProject">MyProjects</Link></span>
+        <span><Link className="link" to="/AboutMe">AboutMe</Link></span>
+            </div>
+        </div>
+       //<h1><Link className="link" to="/">Home</Link></h1>
+       // <h1><Link className="link" to="/MyProject">MyProjects</Link></h1>
+        //<h1><Link className="link" to="/AboutMe">AboutMe</Link></h1>
     )
 }
